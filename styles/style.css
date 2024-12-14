@@ -30,7 +30,7 @@
   inline-size: clamp(375px, 50%, 700px);
 }
 
-/* Все для заголовка*/
+/* header */
 
 .header {
   margin-block-start: 100px;
@@ -59,7 +59,7 @@
   text-transform: uppercase;
 }
 
-/* Все для контента*/
+/* Card */
 
 .main {
   display: flex;
@@ -161,6 +161,8 @@
   inline-size: 129px;
 }
 
+/* Button */
+
 .button {
   position: relative;
   background-color: var(--background-color);
@@ -213,8 +215,6 @@
   }
 }
 
-/* SAVE BUTTON */
-
 .button-wrapper {
   display: flex;
   justify-content: center;
@@ -248,7 +248,7 @@
   }
 }
 
-/* SAVE BUTTON */
+/* Dialog */
 
 .dialog::backdrop {
   opacity: 0.75;
@@ -291,7 +291,7 @@
   inline-size: 100%;
 }
 
-/* filtres */
+/* Filtres */
 
 .blur__bright {
   filter: blur(2px) brightness(50%) contrast(150%);
@@ -320,6 +320,8 @@
 .saturate {
   filter: saturate(150%);
 }
+
+/* Mobile */
 
 @media (width <= 375px) {
   .container {
