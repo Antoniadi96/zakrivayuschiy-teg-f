@@ -6,3 +6,6 @@
 
 ### Ссылка на проект
 https://github.com/Antoniadi96/zakrivayuschiy-teg-f.git
+
+### Ссылка на страницу проекта
+https://antoniadi96.github.io/zakrivayuschiy-teg-f/
